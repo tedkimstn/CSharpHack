@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileIO2MProj", "FileIO2MPro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileIO3MProj", "FileIO3MProj\FileIO3MProj.csproj", "{7988D318-ADB5-4280-88F9-3FD1E2F45DA2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockPaperScissorsMProj", "RockPaperScissorsMProj\RockPaperScissorsMProj.csproj", "{3543BFB3-C28B-4ACB-8AA4-C0252130AA7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,5 +57,9 @@ Global
 		{7988D318-ADB5-4280-88F9-3FD1E2F45DA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7988D318-ADB5-4280-88F9-3FD1E2F45DA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7988D318-ADB5-4280-88F9-3FD1E2F45DA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3543BFB3-C28B-4ACB-8AA4-C0252130AA7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3543BFB3-C28B-4ACB-8AA4-C0252130AA7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3543BFB3-C28B-4ACB-8AA4-C0252130AA7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3543BFB3-C28B-4ACB-8AA4-C0252130AA7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
