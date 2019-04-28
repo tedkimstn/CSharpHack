@@ -55,6 +55,16 @@ namespace FileIO2MProj
                         Person newPerson = new Person(entries[0], entries[1], entries[2]);
                         // Add the person object to a List<Person>
                         people.Add(newPerson);
+
+                        // Prints each person object using properties of the class Person.
+
+                    }
+
+                    foreach (var person in people)
+                    {
+                        // "$": "special character identifies a string literal as an interpolated string" (mdoc).
+                        // Instead of Console.WriteLine("{0} {1}: {2}", person.FirstName, person.LastName, person.URL);
+                        Console.WriteLine($"{ person.FirstName } { person.LastName }: { person.URL }");
                     }
                 }
                 catch (FileNotFoundException ex)
@@ -62,15 +72,6 @@ namespace FileIO2MProj
                     Console.WriteLine("File was not found. Please create: {0}", ex.FileName);
                 }
 
-                Console.WriteLine();
-
-                // Prints each person object using properties of the class Person.
-                foreach (var person in people)
-                {
-                    // "$": "special character identifies a string literal as an interpolated string" (mdoc).
-                    // Instead of Console.WriteLine("{0} {1}: {2}", person.FirstName, person.LastName, person.URL);
-                    Console.WriteLine($"{ person.FirstName } { person.LastName }: { person.URL }");
-                }
                 // Ask user to restart or not.
                 bool restart = Restart();
                 if (restart == true) { continue; }
@@ -79,6 +80,7 @@ namespace FileIO2MProj
             }
         }
 
+        // Returns true for "y" and false for "n".
         static bool Restart()
         {
             while (true)
@@ -95,7 +97,7 @@ namespace FileIO2MProj
 
     }
 
-
+    // A person class with 3 properties and a constructor.
     class Person
     {
         public string FirstName;
@@ -116,8 +118,7 @@ namespace FileIO2MProj
 
 /* This code produces the following results:
 
-Bahrt Dan: github.com/dbahrt
-Kim Ted: github.com/tedkimflo
+File was not found. Please create: /Users/theory/Projects/CSC180Modified/FileIO2MProj/bin/Debug/netcoreapp2.1/tc_fileio.txt
 Restart? (y/n)
 Airborne
 Invalid Input.
@@ -125,7 +126,7 @@ Invalid Input.
 Restart? (y/n)
 y
 
-
+skipping invalid line in file: stmartis.edu
 Bahrt Dan: github.com/dbahrt
 Kim Ted: github.com/tedkimflo
 Restart? (y/n)

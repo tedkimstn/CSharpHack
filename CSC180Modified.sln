@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberGuessingMProj", "Numb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileIO2MProj", "FileIO2MProj\FileIO2MProj.csproj", "{4F6CB562-50AA-4606-816F-28BBF3CBCA08}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileIO3MProj", "FileIO3MProj\FileIO3MProj.csproj", "{7988D318-ADB5-4280-88F9-3FD1E2F45DA2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,5 +51,9 @@ Global
 		{4F6CB562-50AA-4606-816F-28BBF3CBCA08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F6CB562-50AA-4606-816F-28BBF3CBCA08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F6CB562-50AA-4606-816F-28BBF3CBCA08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7988D318-ADB5-4280-88F9-3FD1E2F45DA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7988D318-ADB5-4280-88F9-3FD1E2F45DA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7988D318-ADB5-4280-88F9-3FD1E2F45DA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7988D318-ADB5-4280-88F9-3FD1E2F45DA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
