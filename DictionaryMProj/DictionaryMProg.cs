@@ -2,11 +2,8 @@
  * Source: https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary-2?view=netframework-4.8
  * Definition Source (mdoc): https://docs.microsoft.com/en-us/dotnet/
  * Author: Microsoft Docs
- * Summary: Dictionary class examples that showcases
- *          creating a dictionary,
- *          adding, removing and retreiving elements,
- *          check if a dictionary contains keys,
- *          and handle execptions that happens in the Dictionary class.
+ * Summary: Creates a dictionary, adds, removes and retrieves elements, 
+ *          checks if it contains keys, and handle dictionary execptions.
  * Modifications: Modified project name.
  *                Added a TryGetValue uninitalized out-parameter value test.
  *                Modified Variable names for readability.

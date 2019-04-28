@@ -2,7 +2,7 @@
  * Source: https://www.youtube.com/watch?v=cST5TT3OFyg
  * Definition Source (mdoc): https://docs.microsoft.com/en-us/dotnet/
  * Author: Tim Corey
- * Summary: Read and print file contents. Adds a line of string on file.
+ * Summary: Reads and prints file contents. Adds a line of string on a file.
  * Modifications: Modified project name.
  *                Added try-catch-finally block to handle FileNotFoundException.
  *                Added restart function.

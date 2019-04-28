@@ -1,6 +1,6 @@
 ﻿/* Source: https://github.com/dbahrt/csc180/blob/master/magic8ball.cs
  * Author: Dan Bahrt (original author: Pandit Akshay)
- * Summary: Magic 8-ball game that takes user question and returns one of 19 predefined answers.
+ * Summary: Takes user question and returns one of 19 predefined answers.
  * Modifications: Modified project name.
  *                Modified return type of getQuestion method from string to void
  *                as returning of user input is unnecessary.
@@ -76,13 +76,16 @@ namespace MagicEightBallMProj
                 // Console.ForegroundColor sets the colors of console characters.
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Write("\nThinking...");
-                // "randomObject.Next" method returns a non-negative random integer that is less than the specified parameter.
+                // "randomObject.Next" method returns a non-negative random integer 
+                //  that is less than the specified parameter.
                 // 1 <= randomObject.Next(5) + 1 <= 5
                 int numberOfSecondsToSleep = ((randomObject.Next(5) + 1) * 1000);
-                // Thread.Sleep suspends the thread for the specified number of milliseconds.
+                // Thread.Sleep suspends the thread for 
+                // the specified number of milliseconds.
                 // Suspends the program for 1-5 seconds.
                 Thread.Sleep(numberOfSecondsToSleep);
-                // Carriage return, 11 whitespaces to remove "thinking...", carriage return.
+                // Carriage return, 11 whitespaces to remove "thinking...", 
+                // carriage return.
                 Console.Write("\r           \r");
                 // Writes a random answer from an array of defined answers.
                 definedBallReplies();
@@ -152,7 +155,8 @@ namespace MagicEightBallMProj
                 {
                     Console.Write("Input is too short! ");
                     Console.WriteLine("Try again...");
-                    // "continue" statement passes control to the next interation of enclosing loop statement.
+                    // "continue" statement passes control 
+                    // to the next interation of enclosing loop statement.
                     // Another iteration of for loop starts.
                     continue;
                 }
