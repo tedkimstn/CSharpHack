@@ -1,11 +1,11 @@
 ﻿/*
- * Source: https://github.com/tedkimstn/CSC180Modified/blob/master/TemplateMProj/TemplateMProg.cs
+ * Source: 
  * Definition Source (mdoc): https://docs.microsoft.com/en-us/dotnet/
- * Author: Ted Kim
- * Summary: A input handler and a restart handler.
- * Modifications: None.
+ * Author: 
+ * Summary: 
+ * Modifications: 
  * Student: Ted Kim
- * Capture Date: April 28, 2019
+ * Capture Date: April , 2019
  */
 
 using System;
@@ -20,32 +20,35 @@ namespace TemplateMProj
             bool resume = true;
             while (resume)
             {
-                // Instantiates a list of valid inputs.
-                // Add valid inputs inside curly braces.
-                List<string> validInputs = new List<string>() { };
-                InputHandler(validInputs);
+                // A list of valid inputs.
+                // Add valid inputs inside the curly braces.
+                List<string> validInputs = new List<string>(){ };
+
+                // Reads a user input.
+                string input = InputHandler(validInputs);
 
                 // Ask if a user wishes to restart the program.
                 resume = RestartHandler();
             }
         }
 
-        //
-        static string InputHandler(List<string> defInputs)
+        // Prints a list of optoin inputs,
+        // Reads and returns an error-checked user input.
+        static string InputHandler(List<string> optionInputs)
         {
             while (true)
             {
                 Console.WriteLine("Please input one of the followings: ");
 
-                foreach (var defInput in defInputs)
+                foreach (var defInput in optionInputs)
                 {
                     Console.WriteLine(defInput);
                 }
 
                 Console.Write("\n>");
-                string input = Console.ReadLine();
+                string input = Console.ReadLine().ToLower();
 
-                if (defInputs.Contains(input)) 
+                if (optionInputs.Contains(input)) 
                 {
                     Console.WriteLine("Valid input.");
                     return input; 
