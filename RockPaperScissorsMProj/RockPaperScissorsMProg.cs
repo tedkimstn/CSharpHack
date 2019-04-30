@@ -82,7 +82,7 @@ namespace RockPaperScissorsM
                 }
                 else
                 {
-                    Console.WriteLine("Tied");
+                    Console.WriteLine("Drew");
                 }
 
                 resume = Restart();
