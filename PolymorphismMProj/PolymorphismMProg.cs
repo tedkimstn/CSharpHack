@@ -2,7 +2,7 @@
  * Source: https://www.youtube.com/watch?v=4a_iTOtGhM8 
  * Definition Source (mdoc): https://docs.microsoft.com/en-us/dotnet/
  * Author: kudvenkat 
- * Summary: 
+ * Summary: Showcases polymorphism by redefining base class methods in derived classes.
  * Modifications: Added a namespace.
  *                Moved Main method from bottom to top.
  *                Added name to each employee.
