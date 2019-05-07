@@ -161,3 +161,33 @@ namespace SerializeMProj
         }
     }
 }
+
+/* This code produces the following results:
+
+Please input one of the followings: 
+serialize
+read
+
+>serialize
+Valid input.
+Restart? (y/n)
+>y
+
+Please input one of the followings: 
+serialize
+read
+
+>read
+Valid input.
+Thorny devil, 1, True
+Casquehead lizard, 0, False
+Green iguana, 4, True
+Blotched blue-tongue lizard, 0, False
+Gila monster, 1, False
+Restart? (y/n)
+>n
+
+
+Press any key to continue...
+
+ */
