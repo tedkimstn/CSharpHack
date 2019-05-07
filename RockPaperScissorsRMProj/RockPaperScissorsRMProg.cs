@@ -19,46 +19,49 @@ namespace RockPaperScissorsRMProj
         {
             // Restart manager.
             bool resume = true;
+
+            // Point counter.
+            int point = 0;
+
+            Console.WriteLine("Rock Paper Scissors Game");
+
             while (resume)
             {
-                RockPaperScissors();
-
+                // Point = old point + new point.
+                point = point + RockPaperScissors();
+                Console.WriteLine("Current Point: {0}", point);
                 // Ask if a user wishes to restart the program.
                 resume = RestartHandler();
             }
         }
 
-        static void RockPaperScissors()
+        static int RockPaperScissors()
         {
 
-            Console.WriteLine("Rock Paper Scissors");
+
 
             // A list of valid inputs.
-            // Add valid inputs inside the curly braces.
-            List<string> validInputs = new List<string> { "rock", "paper", "scissors" };
-
-            CustomLinkedNode rockN = new CustomLinkedNode("rock");
-            CustomLinkedNode paperN = new CustomLinkedNode("paper");
-            CustomLinkedNode scissorsN = new CustomLinkedNode("scissors");
-
-            rockN.Previous = scissorsN;
-            rockN.Next = paperN;
-            paperN.Previous = rockN;
-            paperN.Next = scissorsN;
-            scissorsN.Previous = paperN;
-            scissorsN.Next = rockN;
-
-
+            List<string> validInputs = new List<string>() { "rock", "paper", "scissors" };
 
             // Reads a user input.
             string input = InputHandler(validInputs);
 
+            // Generates a random hand.
+            Random ranNumGen = new Random();
+            int ranNum = ranNumGen.Next(0, 3);
+            Console.WriteLine("Computer: {0}", validInputs[ranNum]);
 
-
+            // In cases of {user, computer} = {paper, rock}, {scissors, paper}, {rock, scissors}
+            if(validInputs.IndexOf(input) - ranNum == 1 || validInputs.IndexOf(input) - ranNum == -2) { Console.WriteLine("User won"); return 1; }
+            // In cases of both user and computer choose same shape
+            else if (validInputs.IndexOf(input) - ranNum == 0) { Console.WriteLine("Drew"); return 0; }
+            // In cases of {computer, user} = {paper, rock}, {scissors, paper}, {rock, scissors}
+            else if (validInputs.IndexOf(input) - ranNum == -1 || validInputs.IndexOf(input) - ranNum == 2 ) { Console.WriteLine("User lost"); return -1; }
+            else { Console.WriteLine("Unexpected Error"); return 0; }
 
         }
         
-        // Prints a list of optoin inputs,
+        // Prints a list of option inputs,
         // Reads and returns an error-checked user input.
         static string InputHandler(List<string> optionInputs)
         {
@@ -101,35 +104,79 @@ namespace RockPaperScissorsRMProj
                 else { Console.WriteLine("Invalid Input.\n"); }
             }
         }
+
     }
-    class CustomLinkedNode
-    {
-        public CustomLinkedNode Previous { get; set; }
-        public string Value { get; set; }
-        public CustomLinkedNode Next { get; set; }
-
-        public CustomLinkedNode(string val) { Value = val; }
-    }
-    class CustomLinkedList
-    {
-
-        public CustomLinkedList(List<string> stringList)
-        {
-            List<CustomLinkedNode> nodeList = new List<CustomLinkedNode>;
-            foreach(string item in stringList)
-            {
-                nodeList.
-            }
-        }
-    }
-
-   
-
 
 }
 
 /* This code produces the following results:
 
+Rock Paper Scissors Game
+Please input one of the followings: 
+rock
+paper
+scissors
 
+>drinking coffee with harold in olympia coffee roasting co
+Invalid input.
+
+Please input one of the followings: 
+rock
+paper
+scissors
+
+>rock
+Valid input.
+Computer: scissors
+User won
+Current Point: 1
+Restart? (y/n)
+>harold left
+Invalid Input.
+
+Restart? (y/n)
+>y
+
+Please input one of the followings: 
+rock
+paper
+scissors
+
+>paper
+Valid input.
+Computer: rock
+User won
+Current Point: 2
+Restart? (y/n)
+>y       
+
+Please input one of the followings: 
+rock
+paper
+scissors
+
+>scissors
+Valid input.
+Computer: paper
+User won
+Current Point: 3
+Restart? (y/n)
+>y
+
+Please input one of the followings: 
+rock
+paper
+scissors
+
+>rock
+Valid input.
+Computer: paper
+User lost
+Current Point: 2
+Restart? (y/n)
+>n
+
+
+Press any key to continue...
 
  */
