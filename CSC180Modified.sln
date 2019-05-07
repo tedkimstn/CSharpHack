@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolymorphismMProj", "Polymo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceMProj", "InheritanceMProj\InheritanceMProj.csproj", "{143DA4F0-06CC-4776-B6C5-A6FE204CBA6D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSortMProj", "QuickSortMProj\QuickSortMProj.csproj", "{1D77C2BF-CFCF-4442-975B-8CC7E840EC18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -79,5 +81,9 @@ Global
 		{143DA4F0-06CC-4776-B6C5-A6FE204CBA6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{143DA4F0-06CC-4776-B6C5-A6FE204CBA6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{143DA4F0-06CC-4776-B6C5-A6FE204CBA6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D77C2BF-CFCF-4442-975B-8CC7E840EC18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D77C2BF-CFCF-4442-975B-8CC7E840EC18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D77C2BF-CFCF-4442-975B-8CC7E840EC18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D77C2BF-CFCF-4442-975B-8CC7E840EC18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
