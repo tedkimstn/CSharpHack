@@ -2,7 +2,7 @@
  * Source: https://docs.microsoft.com/en-us/dotnet/api/system.collections.arraylist?view=netframework-4.8
  * Definition Source (mdoc): https://docs.microsoft.com/en-us/dotnet/
  * Author: Microsoft Docs
- * Summary: 
+ * Summary: Showcases pros and cons of an ArrayList.
  * Modifications: Added a namespace.
  * Student: Ted Kim
  * Capture Date: May 07, 2019
