@@ -7,7 +7,7 @@
  *                Modified variable names for readability.
  *                Removed unnecessary using namespaces.
  * Student: Ted Kim
- * Capture Date: May , 2019
+ * Capture Date: May 06, 2019
  */
 
 using System;
