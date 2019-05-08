@@ -37,7 +37,7 @@ namespace SumOfDigitsRMProj
                     int sum = 0;
 
                     // Adds up each digits.
-                    // Digits are represented as number 48-57 in unicode.
+                    // Each char digits are represented as numbers 48 - 57 in unicode.
                     foreach (char c in input) { sum += c - '0'; }
                     Console.WriteLine(sum);
                 }
