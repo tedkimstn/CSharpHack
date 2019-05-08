@@ -53,6 +53,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceMProj", "Interface
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateMProj", "DelegateMProj\DelegateMProj.csproj", "{7E991BA7-F710-483B-BABF-883C6434FFD0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncryptDecryptMProj", "EncryptDecryptMProj\EncryptDecryptMProj.csproj", "{5AF3A1FE-ADCB-4988-B328-A4186CD18E2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubstringMProj", "SubstringMProj\SubstringMProj.csproj", "{6DBC819B-EDC9-4E1B-B7B8-82351043EEE3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -163,5 +167,13 @@ Global
 		{7E991BA7-F710-483B-BABF-883C6434FFD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E991BA7-F710-483B-BABF-883C6434FFD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E991BA7-F710-483B-BABF-883C6434FFD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AF3A1FE-ADCB-4988-B328-A4186CD18E2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AF3A1FE-ADCB-4988-B328-A4186CD18E2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AF3A1FE-ADCB-4988-B328-A4186CD18E2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AF3A1FE-ADCB-4988-B328-A4186CD18E2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DBC819B-EDC9-4E1B-B7B8-82351043EEE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DBC819B-EDC9-4E1B-B7B8-82351043EEE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DBC819B-EDC9-4E1B-B7B8-82351043EEE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DBC819B-EDC9-4E1B-B7B8-82351043EEE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
