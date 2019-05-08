@@ -23,7 +23,6 @@ namespace TemplateMProj
                 // A list of valid inputs.
                 // Add valid inputs inside the curly braces.
                 List<string> validInputs = new List<string>(){ };
-
                 // Reads a user input.
                 string input = InputHandler(validInputs);
 
@@ -67,7 +66,6 @@ namespace TemplateMProj
             while (true)
             {
                 Console.Write("Restart? (y/n)\n>");
-                // "ReadLine" reads a line of user input.
                 string restart = Console.ReadLine();
 
                 if (restart == "y") { Console.WriteLine(); return true; }

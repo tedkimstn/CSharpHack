@@ -57,6 +57,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncryptDecryptMProj", "Encr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubstringMProj", "SubstringMProj\SubstringMProj.csproj", "{6DBC819B-EDC9-4E1B-B7B8-82351043EEE3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfDigitsMProj", "SumOfDigitsMProj\SumOfDigitsMProj.csproj", "{D2A0406D-24C2-4330-A145-E71440391030}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfDigitsRMProj", "SumOfDigitsRMProj\SumOfDigitsRMProj.csproj", "{9FDD4F4C-6CFD-40A7-AF81-6B8D5E96FA17}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -175,5 +179,13 @@ Global
 		{6DBC819B-EDC9-4E1B-B7B8-82351043EEE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DBC819B-EDC9-4E1B-B7B8-82351043EEE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DBC819B-EDC9-4E1B-B7B8-82351043EEE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2A0406D-24C2-4330-A145-E71440391030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2A0406D-24C2-4330-A145-E71440391030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2A0406D-24C2-4330-A145-E71440391030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2A0406D-24C2-4330-A145-E71440391030}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FDD4F4C-6CFD-40A7-AF81-6B8D5E96FA17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FDD4F4C-6CFD-40A7-AF81-6B8D5E96FA17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FDD4F4C-6CFD-40A7-AF81-6B8D5E96FA17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FDD4F4C-6CFD-40A7-AF81-6B8D5E96FA17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
