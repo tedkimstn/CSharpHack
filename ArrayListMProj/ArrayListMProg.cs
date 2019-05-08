@@ -24,6 +24,7 @@ public class SamplesArrayList  {
       // Use of List<T> is recommended for performance concerns.
       // ArrayList stores objects of each item but
       // List<T> stores items of a speecific type T. Boxing & Unboxing is not required.
+      // Array cannot be dynamically increased. 
       myAL.Add("Hello");
       myAL.Add("World");
       myAL.Add("!");
