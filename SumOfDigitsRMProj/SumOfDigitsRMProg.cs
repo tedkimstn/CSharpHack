@@ -1,12 +1,12 @@
 ﻿/*
- * Source: 
- * Definition Source (mdoc): https://docs.microsoft.com/en-us/dotnet/
- * Author: 
- * Summary: 
- * Modifications: 
- * Student: Ted Kim
- * Capture Date: May , 2019
- */
+* Source: https://github.com/tedkimstn/CSC180Modified/blob/master/SumOfDigitsRMProj/Program.cs
+* Definition Source (mdoc): https://docs.microsoft.com/en-us/dotnet/
+* Author: Ted Kim
+* Summary: Adds up each digits in a number. 
+* Modifications: N/A.
+* Student: Ted Kim
+* Capture Date: May 08, 2019
+*/
 
 using System;
 
@@ -66,3 +66,31 @@ namespace SumOfDigitsRMProj
         }
     }
 }
+
+/* This code produces the following results:
+
+Sum of Digits
+Please enter a number: 
+>Hello, Dan!
+Invalid input.
+Restart? (y/n)
+>y
+
+Sum of Digits
+Please enter a number: 
+>0
+0
+Restart? (y/n)
+>y
+
+Sum of Digits
+Please enter a number: 
+>123456789 
+45
+Restart? (y/n)
+>n
+
+
+Press any key to continue...
+
+ */
