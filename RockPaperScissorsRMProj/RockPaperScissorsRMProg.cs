@@ -52,12 +52,24 @@ namespace RockPaperScissorsRMProj
             Console.WriteLine("Computer: {0}", validInputs[ranNum]);
 
             // In cases of {user, computer} = {paper, rock}, {scissors, paper}, {rock, scissors}
-            if(validInputs.IndexOf(input) - ranNum == 1 || validInputs.IndexOf(input) - ranNum == -2) { Console.WriteLine("User won"); return 1; }
+            if(validInputs.IndexOf(input) - ranNum == 1 || validInputs.IndexOf(input) - ranNum == -2) 
+            { 
+              Console.WriteLine("User won"); return 1; 
+            }
             // In cases of both user and computer choose same shape
-            else if (validInputs.IndexOf(input) - ranNum == 0) { Console.WriteLine("Drew"); return 0; }
+            else if (validInputs.IndexOf(input) - ranNum == 0) 
+            { 
+                Console.WriteLine("Drew"); return 0; 
+            }
             // In cases of {computer, user} = {paper, rock}, {scissors, paper}, {rock, scissors}
-            else if (validInputs.IndexOf(input) - ranNum == -1 || validInputs.IndexOf(input) - ranNum == 2 ) { Console.WriteLine("User lost"); return -1; }
-            else { Console.WriteLine("Unexpected Error"); return 0; }
+            else if (validInputs.IndexOf(input) - ranNum == -1 || validInputs.IndexOf(input) - ranNum == 2 ) 
+            { 
+                Console.WriteLine("User lost"); return -1; 
+            }
+            else 
+            { 
+                Console.WriteLine("Unexpected Error"); return 0; 
+            }
 
         }
         
