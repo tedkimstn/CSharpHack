@@ -69,6 +69,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicateMProj", "Rem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDupicateRMProj", "RemoveDupicateRMProj\RemoveDupicateRMProj.csproj", "{72ABC23F-B501-4575-B015-5B1AC926FEEB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListReversedMProj", "LinkedListReversedMProj\LinkedListReversedMProj.csproj", "{2D28D0B3-9B90-4A80-BD74-A6C545BC33A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -211,5 +213,9 @@ Global
 		{72ABC23F-B501-4575-B015-5B1AC926FEEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72ABC23F-B501-4575-B015-5B1AC926FEEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72ABC23F-B501-4575-B015-5B1AC926FEEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D28D0B3-9B90-4A80-BD74-A6C545BC33A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D28D0B3-9B90-4A80-BD74-A6C545BC33A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D28D0B3-9B90-4A80-BD74-A6C545BC33A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D28D0B3-9B90-4A80-BD74-A6C545BC33A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
