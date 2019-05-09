@@ -2,14 +2,13 @@
  * Source: https://github.com/tedkimstn/CSC180Modified/blob/master/ReverStingRMProj/ReverStingRMProg.cs
  * Definition Source (mdoc): https://docs.microsoft.com/en-us/dotnet/
  * Author: Ted Kim
- * Summary: Reverses a string.
+ * Summary: Reverses a string using a for loop.
  * Modifications: N/A.
  * Student: Ted Kim
  * Capture Date: May 08, 2019
  */
 
 using System;
-using System.Text;
 
 namespace ReverStingRMProj
 {
@@ -36,12 +35,11 @@ namespace ReverStingRMProj
 
         static string ReverseString(string oString)
         {
-            StringBuilder rString = new StringBuilder(oString.Length);
+            string rString = "";
 
             for(int i=oString.Length-1; i>=0; i--)
             {
-                rString.Append(oString[i]);
-
+                rString += oString[i];
             }
             return rString.ToString();
         }
