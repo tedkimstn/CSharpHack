@@ -17,17 +17,21 @@ namespace TemplateMProj
     {
         static void Main(string[] args)
         {
+            // Restart handler part 1/2.
             bool resume = true;
             while (resume)
             {
+
                 // A list of valid inputs.
                 // Add valid inputs inside the curly braces.
                 List<string> validInputs = new List<string>(){ };
                 // Reads a user input.
                 string input = InputHandler(validInputs);
 
+                // Restart handler part 2/2.
                 // Ask if a user wishes to restart the program.
                 resume = RestartHandler();
+
             }
         }
 
@@ -58,6 +62,19 @@ namespace TemplateMProj
                     continue; 
                 }
             }          
+        }
+
+        // Reads and returns a user input.
+        static string InputHandler()
+        {
+            while (true)
+            {
+                Console.WriteLine("Please input: ");
+                Console.Write("\n>");
+
+                return Console.ReadLine();
+
+            }
         }
 
         // Returns true if user wishes to restart and vice versa.

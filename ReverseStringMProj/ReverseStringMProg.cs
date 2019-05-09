@@ -22,17 +22,23 @@ namespace ReverseStringMProj
 
     class Program
     {
+        // Uses a native method char[].Reverse to reverse a string.
         public static string ReverseString(string s)
         {
             char[] array = s.ToCharArray();
             Array.Reverse(array);
+            // Casts a char[] to a string.
             return new string(array);
         }
 
+        // Custom method to reverse a string.
         public static string ReverseStringDirect(string s)
         {
+            // Initializes an array to hold a reversed string.
             char[] array = new char[s.Length];
             int forward = 0;
+
+            // reversedString[firstChar++] = originalString[lastChar--]
             for (int i = s.Length - 1; i >= 0; i--)
             {
                 array[forward++] = s[i];
