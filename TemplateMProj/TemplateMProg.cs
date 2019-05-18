@@ -22,23 +22,25 @@ namespace TemplateMProj
             bool resume = true;
             while (resume)
             {
+                Console.WriteLine("Hello World!");
 
-                // A list of valid inputs.
-                // Add valid inputs inside the curly braces.
-                List<string> validInputs = new List<string>(){ };
+                // Add a list of valid inputs inside the curly braces.
+                List<string> validInputs = new List<string>() {  };
                 // Reads a user input.
-                string input = InputHandler(validInputs);
+                string input = Handler.HandleInput(validInputs);
 
                 // Restart handler part 2/2.
                 // Ask if a user wishes to restart the program.
-                resume = RestartHandler();
-
+                resume = Handler.HandleRestart();
             }
         }
+    }
 
-        // Prints a list of optoin inputs,
+    class Handler
+    {
+        // Prints a list of optoin inputs.
         // Reads and returns an error-checked user input.
-        static string InputHandler(List<string> optionInputs)
+        public static string HandleInput(List<string> optionInputs)
         {
             while (true)
             {
@@ -52,21 +54,21 @@ namespace TemplateMProj
                 Console.Write("\n>");
                 string input = Console.ReadLine().ToLower();
 
-                if (optionInputs.Contains(input)) 
+                if (optionInputs.Contains(input))
                 {
                     Console.WriteLine("Valid input.");
-                    return input; 
+                    return input;
                 }
-                else 
+                else
                 {
                     Console.WriteLine("Invalid input.\n");
-                    continue; 
+                    continue;
                 }
-            }          
+            }
         }
 
         // Reads and returns a user input.
-        static string InputHandler()
+        public static string HandleInput()
         {
             while (true)
             {
@@ -79,7 +81,7 @@ namespace TemplateMProj
         }
 
         // Returns true if user wishes to restart and vice versa.
-        static bool RestartHandler()
+        public static bool HandleRestart()
         {
             while (true)
             {
@@ -91,6 +93,7 @@ namespace TemplateMProj
                 else { Console.WriteLine("Invalid Input.\n"); }
             }
         }
+
     }
 
    
