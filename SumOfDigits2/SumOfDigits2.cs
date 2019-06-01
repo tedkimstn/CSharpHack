@@ -1,5 +1,5 @@
 ﻿/*
-* Source: https://github.com/tedkimstn/CSC180Modified/blob/master/SumOfDigits/Program.cs
+* Source: https://github.com/tedkimstn/CSC180Modified/blob/master/SumOfDigitsRMProj/Program.cs
 * Definition Source (mdoc): https://docs.microsoft.com/en-us/dotnet/
 * Author: Ted Kim
 * Summary: Adds up each digits in a number. 
@@ -10,9 +10,9 @@
 
 using System;
 
-namespace SumOfDigits
+namespace SumOfDigits2
 {
-    class Program
+class Program
     {
         static void Main(string[] args)
         {
