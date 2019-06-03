@@ -8,18 +8,18 @@
  *                Modified "value" property in Node class to "Value".
  *                Removed unnecessary "this" keyword in the Node class constructor.
  *                Relocated AddFirst method in the Node class to before AddLast method.
- *                Modified "delete" method in SinglyLinkedList class to "Delete".
- *                Relocated "RemoveFirst" method in SinglyLinkedList class before "Delete" method.
- *                Modified an IndexOutOfRangeException message in RemoveFirst method in SinglyLinkedList class.
- *                Modified an IndexOutOfRangeException message in Delete method in SinglyLinkedList class.
- *                Modified an Exception message in Delete method in SinglyLinkedList class.
- *                Modified an IndexOutOfRangeException message in RemoveLast method in SinglyLinkedList class.
- *                Removed "Console.WriteLine()"x2 from the PrintList method in SinglyLinkedList class.
+ *                Modified "delete" method in "SinglyLinkedList" class to "Delete".
+ *                Relocated "RemoveFirst" method in "SinglyLinkedList" class before "Delete" method.
+ *                Modified an IndexOutOfRangeException message in RemoveFirst method in "SinglyLinkedList" class.
+ *                Modified an IndexOutOfRangeException message in Delete method in "SinglyLinkedList" class.
+ *                Modified an Exception message in Delete method in "SinglyLinkedList" class.
+ *                Modified an IndexOutOfRangeException message in RemoveLast method in "SinglyLinkedList" class.
+ *                Removed "Console.WriteLine()"x2 from the PrintList method in "SinglyLinkedList" class.
  *                Modified a message that is displayed when a Singly Linked List is empty 
- *                in the PrintList method in SinglyLinkedList class.
- *                Relocated SinglyLinkedList constructor to below "SLLNode first".
- *                Modified SLLNode and SinglyLinkedList class to work with strings instead of ints.
- *                Added "PrintList" method in "SinglyLinkedList" class to print a new line after printing a SinglyLinkedList.
+ *                in the PrintList method in "SinglyLinkedList" class.
+ *                Relocated "SinglyLinkedList" constructor to below "SLLNode first".
+ *                Modified "SLLNode" and "SinglyLinkedList" class to work with strings instead of ints.
+ *                Added "PrintList" method in "SinglyLinkedList" class to print a new line after printing a "SinglyLinkedList".
  *                Added "RemoveDuplicates" method.
  *                Added "IsPalindrome" method.
  * Student: Ted Kim

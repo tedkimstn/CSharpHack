@@ -4,9 +4,10 @@
  * Author: Ted Kim
  * Summary: A reinvented Doubly Linked List.
  * Modifications: Modified a namespace.
- *                Modified that Node and LinkedList work with ints instead of strings.
- *                
- *                
+ *                Modified from "SLLNode" and "SinglyLinkedList" to "DLLNode" and "DoublyLinkedList"
+ *                Modified fields and methods in previous "SLLNode" and "SinglyLinkedList"
+ *                that they work with Doubly Linked List.
+ *                Modified that "DLLNode" and "DoublyLinkedList" work with ints instead of strings.
  * Student: Ted Kim
  * Capture Date: June 03, 2019
  */
