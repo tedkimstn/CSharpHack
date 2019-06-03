@@ -3,10 +3,10 @@
  * Definition Source (mdoc): https://docs.microsoft.com/en-us/dotnet/
  * Author: 
  * Summary: 
- * Modifications: Added a namespace.
+ * Modifications: Modified a namespace.
  *                
  * Student: Ted Kim
- * Capture Date: May , 2019
+ * Capture Date: June , 2019
  */
 
 using System;
