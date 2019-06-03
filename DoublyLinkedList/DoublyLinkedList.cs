@@ -6,7 +6,7 @@
  * Modifications: Modified a namespace.
  *                
  * Student: Ted Kim
- * Capture Date: June , 2019
+ * Capture Date: June 03, 2019
  */
 
 using System;
