@@ -8,6 +8,7 @@
  *                Modified fields and methods in previous "SLLNode" and "SinglyLinkedList"
  *                that they work with Doubly Linked List.
  *                Modified that "DLLNode" and "DoublyLinkedList" work with ints instead of strings.
+ *                Added "printReverse" method in "doublyLinkedList" class.
  * Student: Ted Kim
  * Capture Date: June 03, 2019
  */
@@ -112,6 +113,30 @@ namespace DoublyLinkedList
             }
         }
 
+        // Removes the last node of a DoublyLinkedList.
+        // Running time: O(n).
+        public void RemoveLast()
+        {
+            if (IsEmpty())
+                throw new IndexOutOfRangeException("You can't remove the last element from an emtpy list.");
+            // If there is only one element in a DoublyLinkedList.
+            else if (first.next == null)
+            {
+                // Removes the only element from a DoublyLinkedList.
+                first = null;
+            }
+            else
+            {
+                // Sets the current node as the node before the last node.
+                DLLNode current = first;
+                while (current.next.next != null)
+                    current = current.next;
+
+                // Removes the last node of a DoublyLinkedList.
+                current.next = null;
+            }
+        }
+
         // Delete a node of a DoublyLinkedList that contains a specified value.
         // Running time: O(n).
         public void Delete(int val)
@@ -167,30 +192,6 @@ namespace DoublyLinkedList
                 newNode.next = curr.next;
                 curr.next = newNode;
                 if (newNode.next != null) { newNode.next.previous = newNode; }
-            }
-        }
-
-        // Removes the last node of a DoublyLinkedList.
-        // Running time: O(n).
-        public void RemoveLast()
-        {
-            if (IsEmpty())
-                throw new IndexOutOfRangeException("You can't remove the last element from an emtpy list.");
-            // If there is only one element in a DoublyLinkedList.
-            else if (first.next == null)
-            {
-                // Removes the only element from a DoublyLinkedList.
-                first = null;
-            }
-            else
-            {
-                // Sets the current node as the node before the last node.
-                DLLNode current = first;
-                while (current.next.next != null)
-                    current = current.next;
-
-                // Removes the last node of a DoublyLinkedList.
-                current.next = null;
             }
         }
 

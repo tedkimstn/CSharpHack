@@ -1,4 +1,14 @@
-﻿using System;
+﻿/*
+ * Source: https://github.com/tedkimstn/CSharpHack/blob/master/VowelsCount/VowelsCount.cs
+ * Definition Source (mdoc): https://docs.microsoft.com/en-us/dotnet/
+ * Author: Ted Kim
+ * Summary: Counts the number of vowels in a user input.
+ * Modifications: N/A       
+ * Student: Ted Kim
+ * Capture Date: May 21, 2019
+ */
+
+using System;
 using System.Collections.Generic;
 
 namespace VowelsCount

@@ -114,6 +114,30 @@ namespace SinglyLinkedList
                 first = first.next;
         }
 
+        // Removes the last node of a SinglyLinkedList.
+        // Running time: O(n).
+        public void RemoveLast()
+        {
+            if (IsEmpty())
+                throw new IndexOutOfRangeException("You can't remove the last element from an emtpy list.");
+            // If there is only one element in a SinglyLinkedList.
+            else if (first.next == null)
+            {
+                // Removes the only element from a SinglyLinkedList.
+                first = null;
+            }
+            else
+            {
+                // Sets the current node as the node before the last node.
+                SLLNode current = first;
+                while (current.next.next != null)
+                    current = current.next;
+
+                // Removes the last node of a SinglyLinkedList.
+                current.next = null;
+            }
+        }
+
         // Delete a node of a SinglyLinkedList that contains a specified value.
         // Running time: O(n).
         public void Delete(string val)
@@ -164,30 +188,6 @@ namespace SinglyLinkedList
                 // Inserts a new node between the current and the next node.
                 newNode.next = curr.next;
                 curr.next = newNode;
-            }
-        }
-
-        // Removes the last node of a SinglyLinkedList.
-        // Running time: O(n).
-        public void RemoveLast()
-        {
-            if (IsEmpty())
-                throw new IndexOutOfRangeException("You can't remove the last element from an emtpy list.");
-            // If there is only one element in a SinglyLinkedList.
-            else if (first.next == null)
-            {
-                // Removes the only element from a SinglyLinkedList.
-                first = null;
-            }
-            else
-            {
-                // Sets the current node as the node before the last node.
-                SLLNode current = first;
-                while (current.next.next != null)
-                    current = current.next;
-
-                // Removes the last node of a SinglyLinkedList.
-                current.next = null;
             }
         }
 

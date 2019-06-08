@@ -1,4 +1,14 @@
-﻿using System;
+﻿/*
+ * Source: https://github.com/tedkimstn/CSharpHack/blob/master/VowelsCountFile/VowelsCountFile.cs
+ * Definition Source (mdoc): https://docs.microsoft.com/en-us/dotnet/
+ * Author: Ted Kim
+ * Summary: Counts the number of vowels in a "input.txt" file.
+ * Modifications: N/A
+ * Student: Ted Kim
+ * Capture Date: May 21, 2019
+ */
+
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
