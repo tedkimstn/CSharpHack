@@ -71,6 +71,13 @@ namespace QueueStack
         // A queue simulator stack.
         Stack<T> queueStack;
 
+        // A constructor.
+        public TwoStacksQueue()
+        {
+            queueStack = new Stack<T>();
+            tempStack = new Stack<T>();
+        }
+
         // Adds an item to the end of a queue<t>.
         // Running time: O(n).
         public void Enqueue(T item)
@@ -101,11 +108,22 @@ namespace QueueStack
             return queueStack.Pop();
         }
 
-        // A constructor.
-        public TwoStacksQueue()
+        // Returns an item at the beginning of a Queue<T> without removing it.
+        public T peek()
         {
-            queueStack = new Stack<T>();
-            tempStack = new Stack<T>();
+            return queueStack.Peek();
+        }
+
+        // Checks if a Queue<T> is empty.
+        public bool isEmpty()
+        {
+            bool empty = true;
+            if(queueStack.Count > 0)
+            {
+                empty = false;
+            }
+
+            return empty;
         }
     }
 }
