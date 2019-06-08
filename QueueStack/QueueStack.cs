@@ -1,10 +1,10 @@
 ﻿/*
- * Source: 
+ * Source: https://github.com/tedkimstn/CSharpHack/blob/master/QueueStack/QueueStack.cs
  * Definition Source (mdoc): https://docs.microsoft.com/en-us/dotnet/
  * Author: Ted Kim
- * Summary: 
+ * Summary: Simulates and reverses queues using stacks.
  * Modifications: N/A                
- * Student: Ted Kim
+ * Student: N/A
  * Capture Date: June 07, 2019
  */
 
