@@ -117,6 +117,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoublyLinkedList", "DoublyL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueStack", "QueueStack\QueueStack.csproj", "{5CC68E38-84D7-4864-BFF2-6478096DED3B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchTree", "BinarySearchTree\BinarySearchTree.csproj", "{9C436DFD-1DB6-42FE-B275-1145D136BFC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -355,5 +357,9 @@ Global
 		{5CC68E38-84D7-4864-BFF2-6478096DED3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CC68E38-84D7-4864-BFF2-6478096DED3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CC68E38-84D7-4864-BFF2-6478096DED3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C436DFD-1DB6-42FE-B275-1145D136BFC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C436DFD-1DB6-42FE-B275-1145D136BFC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C436DFD-1DB6-42FE-B275-1145D136BFC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C436DFD-1DB6-42FE-B275-1145D136BFC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
