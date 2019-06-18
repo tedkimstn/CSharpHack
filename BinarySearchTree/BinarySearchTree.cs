@@ -244,7 +244,7 @@ namespace BinarySearchTree
         public int numLeafNodes()
         {
             // If a BST is empty.
-            if (Root == null) { return -1; }
+            if (Root == null) { return 0; }
             // Calls numLeafNodesHelper with an initial value.
             else { return numLeafNodesHelper(Root); }
         }
