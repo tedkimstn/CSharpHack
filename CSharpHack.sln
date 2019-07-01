@@ -119,6 +119,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueStack", "QueueStack\Qu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchTree", "BinarySearchTree\BinarySearchTree.csproj", "{9C436DFD-1DB6-42FE-B275-1145D136BFC1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graph", "Graph\Graph.csproj", "{036B8748-F0D6-4C08-9402-9ACED14DB24F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -361,5 +363,9 @@ Global
 		{9C436DFD-1DB6-42FE-B275-1145D136BFC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C436DFD-1DB6-42FE-B275-1145D136BFC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C436DFD-1DB6-42FE-B275-1145D136BFC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{036B8748-F0D6-4C08-9402-9ACED14DB24F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{036B8748-F0D6-4C08-9402-9ACED14DB24F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{036B8748-F0D6-4C08-9402-9ACED14DB24F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{036B8748-F0D6-4C08-9402-9ACED14DB24F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
